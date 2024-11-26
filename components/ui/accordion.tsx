@@ -2,7 +2,6 @@
 
 import * as React from "react"
 import * as AccordionPrimitive from "@radix-ui/react-accordion"
-import { ChevronDown } from "lucide-react"
 import Image from "next/image"
 import plusLogo from "@/public/Minus_L.svg"
 

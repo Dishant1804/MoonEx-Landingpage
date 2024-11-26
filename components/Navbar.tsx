@@ -31,7 +31,7 @@ const NavbarComponent = () => {
 
   const listItemVariants = {
     initial: { opacity: 0, x: -20 },
-    animate: (index: any) => ({
+    animate: (index: number) => ({
       opacity: 1,
       x: 0,
       transition: {
