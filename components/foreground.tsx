@@ -13,7 +13,7 @@ const ForeGround = () => {
             <div className="flex w-44 h-60 bg-gradient-to-b from-[#E4B40D] to-[#EDD955] opacity-10 absolute blur-3xl">
             </div>
           </div>
-          <div className="flex absolute top-[70%] left-[60%]">
+          <div className="flex absolute -left-[20%] top-[60%] lg:top-[70%] lg:left-[60%]">
             <Image src={bigStar} height={500} width={500} alt="star" style={{ width: "60px", height: "60px" }} />
           </div>
         </div>
@@ -21,7 +21,7 @@ const ForeGround = () => {
             <div className="flex w-[775px] h-[315px] backdrop:blur-lg bg-[#EDD955] opacity-10 absolute blur-3xl rounded-[50%]">
             </div>
           </div>
-        <div className="flex flex-col right-96 top-48 absolute z-20">
+        <div className="flex flex-col right-36 top-28 lg:right-96 lg:top-48 absolute z-20">
           <div className="flex top-[80%] right-[80%]">
             <Image src={smallStar} height={500} width={500} alt="star" style={{ width: "40px", height: "40px" }} />
           </div>
@@ -36,7 +36,7 @@ const ForeGround = () => {
           <div className="flex w-[775px] h-[315px] backdrop:blur-lg bg-[#EDD955] opacity-15 absolute blur-3xl rounded-[50%]">
           </div>
         </div>
-        <div className="flex flex-col right-96 top-[75%] absolute z-20">
+        <div className="flex flex-col right-20 top-[75%] lg:right-96 lg:top-[85%] absolute z-20">
           <Image src={bigStar} height={500} width={500} alt="star" style={{ width: "60px", height: "60px" }} />
         </div>
         <div className="flex flex-col overflow-hidden rotate-12 -left-64 -top-8 absolute z-10">
